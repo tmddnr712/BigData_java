@@ -1,0 +1,24 @@
+package june0629;
+
+class Calculation{
+	int z;
+	public void addition(int x, int y) {
+		z = x+y;
+		System.out.println("합계는: " + z);
+	}
+	public void subtraction(int x, int y) {
+		z = x-y;
+		System.out.println("두수의 차: " + z);
+	}
+}
+
+public class start_inheritance {	
+	int z;
+	public static void main(String[] args) {
+		z = x*y;
+		System.out.println("두 수의 곱: " + z);
+
+	}
+	
+
+}

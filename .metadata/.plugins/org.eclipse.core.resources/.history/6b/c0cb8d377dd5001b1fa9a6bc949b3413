@@ -1,0 +1,22 @@
+package june625;
+
+public class distance {
+	int[] x1;
+	int[] x2;
+	
+	public void setdistancex1(int[] x1) { // get/set 함수
+		this.x1 = x1;
+	}
+	//get은 가져오고
+	public int getdistancex1() {
+		return x1[];
+	}
+	
+	public void setPersonAge(int age) { // get/set 함수
+		this.age = age;
+	}
+	//get은 가져오고
+	public int getPersonAge() {
+		return age;
+	}
+}

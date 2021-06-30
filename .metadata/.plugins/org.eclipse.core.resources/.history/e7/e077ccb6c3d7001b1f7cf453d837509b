@@ -1,0 +1,37 @@
+package june0628;
+import java.util.Scanner;
+// 가위 바위 보 class
+// 0   1  2
+// comp, user, judge class 분할
+
+class Comp {
+	private int answer;
+	public Comp(int answer) {
+		this.answer = answer;
+	}
+	
+	public int getgetComputer() {
+		answer = ((int) (Math.random()*100)) %3;
+		return answer;
+	}
+
+}
+
+class User{ // 입력 -> 정수, 문자열
+	String temp = "";
+	int input = 0;
+	Scanner person;
+	User(int input){
+		this.input = input;
+	}
+	public int getUser() {
+		person = new Scanner(System.in);
+		temp = person.nextLine();
+		if(temp == null || temp.contentEquals("-1")){ // 종료를 위해서 필요
+			return -1;
+		}
+		System.out.println("입력한 값: " +temp );
+		input = Integer.parseInt(temp);
+		return input;
+	}
+}

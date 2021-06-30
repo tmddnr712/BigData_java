@@ -1,0 +1,12 @@
+package june625;
+
+public class Person_print {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Person ps = new Person("대한",10); // 생성자에 따라서
+		ps.print();
+
+	}
+
+}

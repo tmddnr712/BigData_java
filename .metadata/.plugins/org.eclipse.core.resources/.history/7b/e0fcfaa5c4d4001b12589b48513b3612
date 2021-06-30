@@ -1,0 +1,11 @@
+package june624;
+
+//가위 바위 보
+public class c_09_RCP {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

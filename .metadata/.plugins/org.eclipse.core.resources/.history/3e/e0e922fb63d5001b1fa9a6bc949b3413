@@ -1,0 +1,8 @@
+package june625;
+
+public class Student {
+	String name;
+	int kor;
+	int mat;
+	int eng;
+}

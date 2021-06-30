@@ -1,0 +1,22 @@
+package june624;
+// 클래스는 인스턴스 : 
+public class c_03_method { // 클래스 = 멤버변수 + 멤버함수
+	int b;
+	int c;
+	// 접근지정자
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void staticMethod1() { // block은 중괄호{}, 함수는 소괄호(), 배열은 대괄호[]
+		int a = 10;
+		System.out.println("첫 함수 진입");
+		staticMethod2();
+		System.out.println("두번째 함수 호출 종료");
+	}
+	public static void staticMethod2() {
+		System.out.println("두번째 함수 진입");
+		System.out.println("두번째 함수 호출 종료");
+	}
+
+}

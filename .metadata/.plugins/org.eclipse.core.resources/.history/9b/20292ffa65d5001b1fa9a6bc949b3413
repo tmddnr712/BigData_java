@@ -1,0 +1,37 @@
+package june625;
+
+public class Student {
+	String name;
+	int kor;
+	int mat;
+	int eng;
+	
+	public void setStudentName(String name) {
+		this.name = name;
+	}
+	public String getStudentName() {
+		return name;
+	}
+	// 디폴트 생성자
+	public Student(String name, int kor, int mat, int eng) { // 리턴타입이 없음: 생성자
+		this.name = name;
+		this.kor = kor;
+		this.mat = mat;
+		this.eng = eng;
+	}
+	public Student(String name, int kor, int mat) {
+		this.name = name;
+		this.kor = kor;
+		this.mat = mat;
+		this.eng = 95;
+	}
+	public Student(String name, int kor) {
+		this.name = name;
+		this.kor = kor;
+		this.mat = 90;
+		this.eng = 90;
+	}
+	public void print() {
+		System.out.println("이름" + name + "국어" + kor + "수학" + mat + "영어" + eng);
+	}
+}

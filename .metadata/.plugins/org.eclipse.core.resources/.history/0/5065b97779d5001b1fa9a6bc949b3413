@@ -1,0 +1,78 @@
+// 문제 : 
+// 주소록 class : Member
+// name, zipcode, address, add1, add2, ssn1, ssn2, age의 정보를 저장
+// 대한이 123-456, '서울', '종로구', '11111', '1111118', 20
+package june625;
+
+public class Member {
+	String name;
+	String zipcode;
+	String adress;
+	String add1;
+	String add2;
+	String ssn1;
+	String ssn2;
+	int age;
+	
+	public void setPMemberName(String name) { // get/set 함수
+		this.name = name;
+	}
+	//get은 가져오고
+	public String getMemberName() {
+		return name;
+	}
+	public void setMemberAge(int age) { // get/set 함수
+		this.age = age;
+	}
+	//get은 가져오고
+	public int getMemberAge() {
+		return age;
+	}
+	public void setPMemberadress(String name) { // get/set 함수
+		this.name = name;
+	}
+	//get은 가져오고
+	public String getMemberadrdress() {
+		return name;
+	}
+	public void setPMemberadd1(String name) { // get/set 함수
+		this.name = name;
+	}
+	//get은 가져오고
+	public String getMemberadd1() {
+		return name;
+	}
+	public void setPMemberadd2(String name) { // get/set 함수
+		this.name = name;
+	}
+	//get은 가져오고
+	public String getMemberadd2() {
+		return name;
+	}
+	public void setPMemberssn1(String name) { // get/set 함수
+		this.name = name;
+	}
+	//get은 가져오고
+	public String getMemberssn1() {
+		return name;
+	}
+	public void setPMemberssn2(String name) { // get/set 함수
+		this.name = name;
+	}
+	//get은 가져오고
+	public String getMemberssn2() {
+		return name;
+	}
+	public Member() { 
+		
+	}
+	public Member(String name, int age) { // 리턴타입이 없음: 생성자
+		this.name = name; // this.name은 class Student의 String name을 의미
+		this.age = age;
+	}
+	
+	public void print() {
+		System.out.println("이름:" + this.name + "나이:" + this.age);
+	}
+
+}

@@ -1,0 +1,10 @@
+package june624;
+
+public class c_02_odd_even {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

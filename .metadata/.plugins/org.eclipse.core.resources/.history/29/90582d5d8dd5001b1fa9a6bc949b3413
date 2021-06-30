@@ -1,0 +1,40 @@
+package june625;
+
+public class circle {
+	public point po; // 클래스는 참조형
+	public double radius;
+	public point getPo() {
+		return po;
+	}
+	public void setPo(point po) {
+		this.po = po;
+	}
+	public double getRadius() {
+		return radius;
+	}
+	public void setRadius(double radius) {
+		this.radius = radius;
+	}
+	
+	public circle() {}
+	public circle(point po, double radius) {
+		this.po = po;
+		this.radius = radius;
+	}
+	public boolean getCollision(circle cir) {
+		double tot_radius = this.radius + cir.radius;
+		double dist = po.distanceTo(cir.po);
+		if(dist < tot_radius)
+			return true;
+		else
+			return false;
+	}
+	
+	
+	
+
+}
+// 과제: 가위바위보를 클래스로 구현
+// 성적
+// 이름, 국어, 수학, 총점, 평균
+// get/set 함수, 총점계산, 평균계산함수(소수점 이하 2자리에서 반올림)

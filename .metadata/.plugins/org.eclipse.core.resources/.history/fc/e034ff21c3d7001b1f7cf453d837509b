@@ -1,0 +1,16 @@
+package june0628;
+// 가위 바위 보 class
+// 0   1  2
+// comp, user, judge class 분할
+
+public class Comp {
+	public Comp(int answer) {
+		this.answer = answer;
+	}
+	
+	public int getgetComputer() {
+		answer = ((int) match.random()*100)) %3;
+		return answer;
+	}
+
+}

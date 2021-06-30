@@ -1,0 +1,21 @@
+package june624;
+
+public class c_07_array {
+	public static void m() {} // 매개변수가 없는 것도 overloading으로 구현
+	public static void m(int i) { i = 99; }
+	public static void m(int[] arr) { arr[0] = 99; }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		m();
+		int i = 10;
+		m(i);
+		System.out.println(i);
+		
+		int[] arr = {10, 20, 30};
+		m(arr);
+		System.out.println(arr[0]);
+		System.out.println(arr.length);
+	}
+
+}

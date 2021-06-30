@@ -1,0 +1,12 @@
+package june625;
+
+public class d_02_student {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Student st = new Student("´ëÇÑÀÌ");
+		st.print();
+
+	}
+
+}

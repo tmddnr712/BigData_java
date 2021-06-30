@@ -1,0 +1,23 @@
+package june0629;
+
+class Super_class{
+	int num = 20;
+}
+
+
+
+
+
+
+
+
+
+
+public class overriding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

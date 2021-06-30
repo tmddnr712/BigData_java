@@ -1,0 +1,1 @@
+HitNum.java가 과제입니다.

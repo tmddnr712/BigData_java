@@ -1,0 +1,30 @@
+package june625;
+
+public class distance {
+	int x1;
+	int y1;
+	int x2;
+	int y2;
+	
+	public void setdistancex1(int x1, int y1) { // get/set 함수
+		this.x1 = x1;
+		this.y1 = y1;
+	}
+	//get은 가져오고
+	public int[] getdistancex1() {
+		return x1;
+	}
+	
+	public void setdistancex2(int[] x2) { // get/set 함수
+		this.x2 = x2;
+	}
+	//get은 가져오고
+	public int[] getdistancex2() {
+		return x2;
+	}
+	
+	public float zeroTodistance(int x1, int y1) {
+		float result = (0 - this.x1)^2 + (0 - this.y1)^2;
+		return result;
+	}
+}

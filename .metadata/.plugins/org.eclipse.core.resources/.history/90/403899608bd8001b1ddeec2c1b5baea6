@@ -1,0 +1,18 @@
+package june0629;
+// 대입이 실행되는 경우
+// int a = 10;
+i// box.distanceTo(box2);
+public class array_return {
+	static int[] makeArray() {
+		int temp[] = new int[4];
+		for(int i = 1; i < temp.length+1; i++) {
+			temp[i-1] = i * 100;
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package june0629;
+
+class Super_class{
+	int num = 20;
+	public void display() {
+		System.out.println("슈퍼클래스에서 출력");
+	}
+}
+
+public class overriding extends Super_class{
+	int num = 10;
+	public void display() {
+		System.out.println("슈퍼클래스에서 출력");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

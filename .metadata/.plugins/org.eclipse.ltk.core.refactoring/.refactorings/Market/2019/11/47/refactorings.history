@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 4 elements to &apos;war&apos;&#x0D;&#x0A;- Original project: &apos;Market&apos;&#x0D;&#x0A;- Destination element: &apos;war&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     js&#x0D;&#x0A;     css&#x0D;&#x0A;     fonts&#x0D;&#x0A;     images" description="Copy folders" element1="war/js" element2="war/css" element3="war/fonts" element4="war/images" files="0" flags="589830" folders="4" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1574049349542" target="/CsvSearchEngine/war" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package june625;
+
+public class point {
+	double x;
+	double y;
+	public double getX() {
+		this.x = x;
+	}
+	public void setX(double x) {
+		
+	}
+
+}

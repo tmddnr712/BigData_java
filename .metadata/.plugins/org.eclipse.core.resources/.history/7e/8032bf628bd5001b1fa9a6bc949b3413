@@ -1,0 +1,11 @@
+package june625;
+
+public class circle {
+	public point po;
+	public double radius;
+	public point getPo() {
+		return po;
+	}
+	
+
+}

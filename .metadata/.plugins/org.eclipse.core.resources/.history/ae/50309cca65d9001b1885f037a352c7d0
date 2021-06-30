@@ -1,0 +1,10 @@
+package june0630;
+import java.util.Scanner;
+public class c_10_inputException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package june0630;
+// Movable, Attackable, Run
+// speedupmonster
+public interface Fightable extends Movable, Attackable{
+
+}

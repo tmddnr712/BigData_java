@@ -1,0 +1,15 @@
+package june624;
+
+public class c_04_calculation {
+	//두 수를 더하는 함수(사칙연산)
+	public static void main(String[] args) { 
+		
+	}
+	public static int add(int n1, int n2) {
+		int result = n1 + n2;
+		return result;
+	}
+	// subtract, multiply, divides 함수를 작성해 보세요.
+	
+	
+}

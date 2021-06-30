@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lib&apos; to &apos;DataMigration&apos;&#x0D;&#x0A;- Original project: &apos;JSON&apos;&#x0D;&#x0A;- Destination element: &apos;DataMigration&apos;&#x0D;&#x0A;- Original element: &apos;lib&apos;" description="Copy folder" destination="=DataMigration" element1="war/WEB-INF/lib" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575281902118" units="0" version="1.0"/>
+</session>

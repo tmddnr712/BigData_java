@@ -1,0 +1,17 @@
+package june624;
+
+public class c_03_method {
+	int b;
+	int c;
+
+	public static void main(String[] args) {
+		
+	}
+	
+	public static void staticMethod1() {
+		int a = 10;
+		System.out.println("첫 함수 진입");
+		staticMethod2();
+	}
+
+}
