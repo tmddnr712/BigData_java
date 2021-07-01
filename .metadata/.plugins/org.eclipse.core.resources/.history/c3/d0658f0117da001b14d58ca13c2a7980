@@ -1,0 +1,10 @@
+package july01;
+import java.util.ArrayList;
+import java.util.List;
+public class a_02_datastyle {
+
+	public static void main(String[] args) {
+		ArrayList<String> msgs = new ArrayList<String>();
+	}
+
+}

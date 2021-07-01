@@ -1,0 +1,11 @@
+package july01;
+import java.util.ArrayList;
+import java.util.list;
+public class a_02_datastyle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
