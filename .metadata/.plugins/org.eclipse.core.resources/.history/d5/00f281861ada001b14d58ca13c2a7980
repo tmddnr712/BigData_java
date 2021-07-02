@@ -1,0 +1,21 @@
+package july01;
+class Apple{}
+class Banana{}
+class Orange{}
+//일반화된 클래스를 작성하세요.
+class FruitBox{
+	
+}
+
+class AppleBox{
+	
+	
+}
+public class a_03_fruitBox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

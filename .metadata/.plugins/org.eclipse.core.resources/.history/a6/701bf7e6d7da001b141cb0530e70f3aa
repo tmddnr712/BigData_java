@@ -1,0 +1,13 @@
+package july02;
+
+import java.util.HashMap;
+
+public class b_01_hashmap {
+
+	public static void main(String[] args) {
+		HashMap hm = new HashMap();
+		hm.put("¼Òµæ", Double.valueOf(1234.12));
+
+	}
+
+}

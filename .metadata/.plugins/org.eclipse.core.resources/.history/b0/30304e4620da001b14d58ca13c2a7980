@@ -1,0 +1,70 @@
+package july01;
+class Apple{
+	public String toString() {
+		return "나는 사과";
+	}
+}
+class Banana{
+	public String toString() {
+		return "나는 바나나";
+	}
+}
+class Orange{
+	public String toString() {
+		return "나는 오렌지";
+	}
+}
+//일반화된 클래스를 작성하세요.
+class FruitBox<F>{
+	F f[];
+	public void set(F[] n) {
+		f = n;
+	}
+	public void print() {
+		for(F s:f)
+			System.out.println(s);
+	}
+	
+}
+
+class AppleBox{
+	private Apple item;
+	public void push(Apple item) {
+		this.item = item;
+	}
+	public Apple pull() {
+		return item;
+	}
+}
+
+class BananaBox{
+	private Banana item;
+	public void push(Banana item) {
+		this.item = item;
+	}
+	public Banana pull() {
+		return item;
+	}
+}
+
+class OrangeBox{
+	private Orange item;
+	public void push(Orange item) {
+		this.item = item;
+	}
+	public Orange pull() {
+		return item;
+	}
+}
+
+public class a_03_fruitBox {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FruitBox<String> fr = new FruitBox<String>();
+		String[] ss = {"사과"};
+		fr.set(ss);
+		fr.print();
+	}
+
+}

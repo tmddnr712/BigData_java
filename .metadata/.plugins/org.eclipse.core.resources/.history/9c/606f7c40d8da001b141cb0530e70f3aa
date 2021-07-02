@@ -1,0 +1,21 @@
+package july02;
+
+import java.util.HashMap;
+
+public class b_01_hashmap {
+
+	public static void main(String[] args) {
+		HashMap hm = new HashMap();
+		hm.put("소득", Double.valueOf(1234.12));
+		hm.put("저축", Double.valueOf(1234.12));
+		hm.put("나이", Double.valueOf(1234.12));
+		hm.put("대출", Double.valueOf(1234.12));
+		hm.put("소득", 1234.12);
+		hm.put("체중", 1234.12);
+		hm.put("저축", 1234.12);
+		hm.put("나이", 1234.12);
+		hm.put("대출", 1234.12);
+
+	}
+
+}
