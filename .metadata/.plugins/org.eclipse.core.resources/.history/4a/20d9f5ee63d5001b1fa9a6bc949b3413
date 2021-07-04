@@ -1,6 +1,0 @@
-package june625;
-
-public class Student {
-	String name;
-
-}
