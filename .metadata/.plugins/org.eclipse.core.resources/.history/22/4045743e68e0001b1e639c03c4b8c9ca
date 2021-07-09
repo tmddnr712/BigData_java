@@ -1,0 +1,10 @@
+package july09;
+import java.sql.*;
+public class connecttest5 {
+
+	public static void main(String[] args) {
+		MemberDTO dto = new MemberDTO();
+		
+	}
+
+}
