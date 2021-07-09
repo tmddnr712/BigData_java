@@ -1,0 +1,6 @@
+package july09;
+
+public class EmpData {
+	private int no;
+	
+}

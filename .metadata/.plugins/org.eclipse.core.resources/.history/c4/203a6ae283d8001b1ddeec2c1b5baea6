@@ -1,8 +1,0 @@
-package june0629;
-
-public class point3 {
-	public double x;
-	public double y;
-	public double z;
-
-}

@@ -1,0 +1,10 @@
+package july09;
+
+public class EmpData {
+	private int no;
+	private String name;
+	private String job;
+	private int mgr;
+	private Date hiredate;
+	
+}

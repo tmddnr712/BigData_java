@@ -1,0 +1,12 @@
+package july09;
+import java.sql.Date;
+
+public class EmpData {
+	private int no;
+	private String name;
+	private String job;
+	private int mgr;
+	private Date hiredate;
+	private float salary;
+	
+}

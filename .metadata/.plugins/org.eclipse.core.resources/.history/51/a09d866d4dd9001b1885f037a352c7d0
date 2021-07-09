@@ -1,5 +1,0 @@
-package june0630;
-// Movable, Attackable, run
-public interface Fightable extends Movable, Attackable{
-
-}
