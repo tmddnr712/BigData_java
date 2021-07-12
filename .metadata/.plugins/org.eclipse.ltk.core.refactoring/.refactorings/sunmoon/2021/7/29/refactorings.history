@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;july12.sunjuckTest&apos; to &apos;sungjukTest&apos;&#x0D;&#x0A;- Original project: &apos;sunmoon&apos;&#x0D;&#x0A;- Original element: &apos;july12.sunjuckTest&apos;&#x0D;&#x0A;- Renamed element: &apos;july12.sungjukTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;sunjuckTest&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;july12{sunjuckTest.java[sunjuckTest" matchStrategy="1" name="sungjukTest" qualified="false" references="true" similarDeclarations="false" stamp="1626074845820" textual="false" version="1.0"/>
+</session>
