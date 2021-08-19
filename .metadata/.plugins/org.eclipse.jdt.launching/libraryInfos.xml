@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <libraryInfos>
+    <libraryInfo home="C:\Users\노승욱\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205" version="16.0.1"/>
     <libraryInfo home="C:\Program Files\Java\jdk-14" version="14"/>
     <libraryInfo home="C:\Program Files\Java\jre1.8.0_241" version="1.8.0_241">
         <bootpath>
@@ -58,4 +59,5 @@
             <entry path="C:\Program Files\Java\jre1.8.0_221\lib\endorsed"/>
         </endorsedDirs>
     </libraryInfo>
+    <libraryInfo home="C:\Users\노승욱\Desktop\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre" version="16.0.1"/>
 </libraryInfos>
